@@ -1,0 +1,20 @@
+languageCode = "en-us"
+title = "Anti-Blog"
+rssLimit = 20
+copyright = "Credit where credit is due - theme made by [sharadcodes](https://github.com/sharadcodes/hugo-theme-serial-programmer)"
+minify = false
+
+[Author]
+  name = "Sanyia Saidova"
+  email = "sanyia.saidova@gmail.com"
+
+[permalinks]
+  posts = "/:year/:month/:day/:filename"
+  pages = "/:slug"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["html", "json", "rss"]
