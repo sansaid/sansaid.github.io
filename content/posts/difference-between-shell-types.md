@@ -1,7 +1,7 @@
 ---
 title: The difference between login, non-login, interactive and non-interactive shells
 date: 2022-02-01
-tags: ["networks", "tech"]
+tags: ["shells", "tech"]
 ---
 
 # Questions
