@@ -14,7 +14,7 @@
       "content_text": "Questions  How is this distinguished by the OS? Is there a way for me to tell if I\u0026rsquo;m in a login/non-login interactive shell from my session? How do you tell the difference between an interactive/non-interactive shell? You can by checking for the existence of a prompt env var $PS1 Can you distinguish between an interactive/non-interactive shell in the same way across all Linux distros? When do the profile/rc files run with respective to each combination of login/non-login interactive/non-interactive shells?",
       "url": "/2022/02/01/difference-between-shell-types/",
       "date_published": "2022-02-01 00:00:00 +0000 UTC",
-      "tags": ["networks,tech"]
+      "tags": ["shells,tech"]
     }
   
   , 

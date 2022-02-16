@@ -9,16 +9,7 @@
     <managingEditor>sanyia.saidova@gmail.com (Sanyia Saidova)</managingEditor>
     <webMaster>sanyia.saidova@gmail.com (Sanyia Saidova)</webMaster>
     <copyright>Credit where credit is due - theme made by [sharadcodes](https://github.com/sharadcodes/hugo-theme-serial-programmer)</copyright>
-    <lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/networks/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The difference between login, non-login, interactive and non-interactive shells</title>
-      <link>/2022/02/01/difference-between-shell-types/</link>
-      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
-      <guid>/2022/02/01/difference-between-shell-types/</guid>
-      <description>Questions  How is this distinguished by the OS? Is there a way for me to tell if I&amp;rsquo;m in a login/non-login interactive shell from my session? How do you tell the difference between an interactive/non-interactive shell? You can by checking for the existence of a prompt env var $PS1 Can you distinguish between an interactive/non-interactive shell in the same way across all Linux distros? When do the profile/rc files run with respective to each combination of login/non-login interactive/non-interactive shells?</description>
-    </item>
-    
+    <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/networks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How network interfaces work</title>
       <link>/2022/01/26/how-network-interfaces-work/</link>
