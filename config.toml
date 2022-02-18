@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "What She Doesn't Know"
+title = "But does she know so?"
 rssLimit = 20
 copyright = "Credit where credit is due - theme made by [sharadcodes](https://github.com/sharadcodes/hugo-theme-serial-programmer)"
 minify = false
