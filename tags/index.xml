@@ -8,52 +8,6 @@
     <language>en-us</language>
     <managingEditor>sanyia.saidova@gmail.com (Sanyia Saidova)</managingEditor>
     <webMaster>sanyia.saidova@gmail.com (Sanyia Saidova)</webMaster>
-    <copyright>Credit where credit is due - theme made by [sharadcodes](https://github.com/sharadcodes/hugo-theme-serial-programmer)</copyright>
-    <lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>dns</title>
-      <link>/tags/dns/</link>
-      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
-      <guid>/tags/dns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>networking</title>
-      <link>/tags/networking/</link>
-      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
-      <guid>/tags/networking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shells</title>
-      <link>/tags/shells/</link>
-      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
-      <guid>/tags/shells/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>/tags/tech/</link>
-      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
-      <guid>/tags/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>networks</title>
-      <link>/tags/networks/</link>
-      <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
-      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
-      <guid>/tags/networks/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>Credit where credit is due - theme made by [sharadcodes](https://github.com/sharadcodes/hugo-theme-serial-programmer)</copyright><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

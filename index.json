@@ -11,10 +11,10 @@
     {
       "id": "/2022/02/01/difference-between-shell-types/",
       "title": "The difference between login, non-login, interactive and non-interactive shells",
-      "content_text": "Questions  How is this distinguished by the OS? Is there a way for me to tell if I\u0026rsquo;m in a login/non-login interactive shell from my session? How do you tell the difference between an interactive/non-interactive shell? You can by checking for the existence of a prompt env var $PS1 Can you distinguish between an interactive/non-interactive shell in the same way across all Linux distros? When do the profile/rc files run with respective to each combination of login/non-login interactive/non-interactive shells?",
+      "content_text": "She still doesn\u0026rsquo;t know. Questions  How is this distinguished by the OS? Is there a way for me to tell if I\u0026rsquo;m in a login/non-login interactive shell from my session? How do you tell the difference between an interactive/non-interactive shell? You can by checking for the existence of a prompt env var $PS1 Can you distinguish between an interactive/non-interactive shell in the same way across all Linux distros? When do the profile/rc files run with respective to each combination of login/non-login interactive/non-interactive shells?",
       "url": "/2022/02/01/difference-between-shell-types/",
       "date_published": "2022-02-01 00:00:00 +0000 UTC",
-      "tags": ["shells,tech"]
+      "tags": [""]
     }
   
   , 
@@ -24,17 +24,17 @@
       "content_text": "She still doesn\u0026rsquo;t know. ",
       "url": "/2022/02/01/difference-between-cname-and-alias/",
       "date_published": "2022-02-01 00:00:00 +0000 UTC",
-      "tags": ["dns,networking,tech"]
+      "tags": [""]
     }
   
   , 
     {
       "id": "/2022/01/26/how-network-interfaces-work/",
       "title": "How network interfaces work",
-      "content_text": "Questions  What exactly are they? Are they a hardware device or can it be virtualised? If it\u0026rsquo;s virtualised, how can I create my own? How do network sockets relate to a network interface? Is the stuff that I wrote in the 20211228 time note correct?  Notes  On the 20211228 time note, I wrote some initial notes about them  References  Really good ELI5 explanation of a network socket Quora explanation  ",
+      "content_text": "She still doesn\u0026rsquo;t know. Questions  What exactly are they? Are they a hardware device or can it be virtualised? If it\u0026rsquo;s virtualised, how can I create my own? How do network sockets relate to a network interface? Is the stuff that I wrote in the 20211228 time note correct?  Notes  On the 20211228 time note, I wrote some initial notes about them  References  Really good ELI5 explanation of a network socket Quora explanation  ",
       "url": "/2022/01/26/how-network-interfaces-work/",
       "date_published": "2022-01-26 00:00:00 +0000 UTC",
-      "tags": ["networks,tech"]
+      "tags": [""]
     }
   
   ]
