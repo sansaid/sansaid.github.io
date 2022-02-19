@@ -1,0 +1,92 @@
+#!/usr/bin/env bash
+
+function usage() {
+	echo "Usage: ${0} [post title in quotes]
+	
+Post tile must be in quotes otherwise script will interpret words as separate arguments."
+}
+
+function transform_file_name() {
+	echo "${1}" | \
+	 tr '[:upper:]' '[:lower:]' | \
+	 tr -d '[:punct:]' | \
+	 tr ' ' '-'
+}
+
+function create_post() {
+	# $1 should be the post title in title cases
+	# $2 should be the date in format %Y-%m-%d
+	local post_title="${1}"
+	local date="${2}"
+
+	local script_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+	local rel_posts_dir="../content/posts"
+	local abs_posts_dir=$(cd "${script_dir}/${rel_posts_dir}" && pwd)
+
+	local post_file_name=$(transform_file_name "${post_title}")
+	local post_file_path="${abs_posts_dir}/${post_file_name}.md"
+
+	if [[ -e "${post_file_path}" ]]; then
+		echo "File ${post_file_path} already exists"
+		exit $ERR_FILE_EXISTS
+	fi
+
+	# Appending to file to avoid accidental overwrites
+	tee -a "${post_file_path}" <<EOF > /dev/null
+---
+title: ${post_title}
+date: ${date}
+tags: []
+---
+
+# She still doesn't know.
+
+## Questions
+
+## Notes
+
+## References
+
+EOF
+	vi "${post_file_path}"
+	
+	[[ $? ]] && echo "New post created: ${post_file_path}"
+}
+
+function assert() {
+	case $2 in
+	like)
+		if [[ ! $1 =~ $3 ]]; then
+			echo "Assertion failed: $1 not like $3"
+			exit $ERR_ASSERTION_FAILED
+		fi
+		;;
+	*)
+		echo "Can't recognise assert statement ${2}"
+		exit $ERR_BAD_SYNTAX
+		;;
+	esac	
+}
+
+# EXIT CODES
+ERR_BAD_SYNTAX=1
+ERR_ASSERTION_FAILED=2
+ERR_UNREGONISED_ARGS=3
+ERR_FILE_EXISTS=4
+
+### MAIN ###
+
+curr_date=$(date '+%Y-%m-%d')
+
+if [[ ${#} -gt 1 ]]; then
+	usage
+	exit ${ERR_UNREGONISED_ARGS}
+fi
+
+post_title="${1}"
+
+while [[ -z "${post_title}" ]]; do
+	read -p "Post title: " post_title
+done
+
+create_post "${post_title}" "${curr_date}"
