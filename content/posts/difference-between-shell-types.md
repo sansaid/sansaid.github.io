@@ -1,10 +1,12 @@
 ---
 title: The difference between login, non-login, interactive and non-interactive shells
 date: 2022-02-01
-tags: ["shells", "tech"]
+tags: []
 ---
 
-# Questions
+# She still doesn't know.
+
+## Questions
 
 * How is this distinguished by the OS?
 * Is there a way for me to tell if I'm in a login/non-login interactive shell from my session?
@@ -13,6 +15,6 @@ tags: ["shells", "tech"]
 * Can you distinguish between an interactive/non-interactive shell in the same way across all Linux distros?
 * When do the profile/rc files run with respective to each combination of login/non-login interactive/non-interactive shells?
 
-# References
+## References
 
 * [SO answer to this question](https://unix.stackexchange.com/questions/50665/what-is-the-difference-between-interactive-shells-login-shells-non-login-shell)
