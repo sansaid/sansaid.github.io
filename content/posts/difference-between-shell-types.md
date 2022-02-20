@@ -18,3 +18,5 @@ tags: []
 ## References
 
 * [SO answer to this question](https://unix.stackexchange.com/questions/50665/what-is-the-difference-between-interactive-shells-login-shells-non-login-shell)
+* [Another SO answer](https://unix.stackexchange.com/questions/38175/difference-between-login-shell-and-non-login-shell)
+* [Blog post on the differences](https://tecadmin.net/difference-between-login-and-non-login-shell/)
