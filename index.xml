@@ -9,7 +9,25 @@
     <managingEditor>sanyia.saidova@gmail.com (Sanyia Saidova)</managingEditor>
     <webMaster>sanyia.saidova@gmail.com (Sanyia Saidova)</webMaster>
     <copyright>Credit where credit is due - theme made by [sharadcodes](https://github.com/sharadcodes/hugo-theme-serial-programmer)</copyright>
-    <lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How NTP servers work</title>
+      <link>/2022/02/20/how-ntp-servers-work/</link>
+      <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/2022/02/20/how-ntp-servers-work/</guid>
+      <description>She still doesn&amp;rsquo;t know. Questions  How are corrections made to a local block? How is it possible that NTP doesn&amp;rsquo;t skew the clock further when it makes the adjustment?  Notes References  A really detailed write up of NTP servers that I should condense  </description>
+    </item>
+    
+    <item>
+      <title>How to learn through digital media</title>
+      <link>/2022/02/20/how-to-learn-through-digital-media/</link>
+      <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/2022/02/20/how-to-learn-through-digital-media/</guid>
+      <description>She still doesn&amp;rsquo;t know. Questions Notes  Because of the fact that digital media doesn&amp;rsquo;t make it easy to write in the margins, or create references to other material, it becomes hard to read syntopically through web articles or e-books. Mention tools/techniques that could help achieve syntopic reading through digital media People can learn through more than just reading via digital media, so how can that be factored into learning?  References </description>
+    </item>
+    
     <item>
       <title>The difference between a CNAME and ALIAS record</title>
       <link>/2022/02/01/difference-between-cname-and-alias/</link>
