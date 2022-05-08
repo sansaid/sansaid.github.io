@@ -7,55 +7,5 @@
 
   "items": [
   
-  
-    {
-      "id": "/2022/02/20/how-to-learn-through-digital-media/",
-      "title": "How to learn through digital media",
-      "content_text": "She still doesn\u0026rsquo;t know. Questions  What different types of digital media is there? How do you take notes effectively for each media? How do you reference notes across different media? How do you summarise your learnings from different media?  Notes  Because of the fact that digital media doesn\u0026rsquo;t make it easy to write in the margins, or create references to other material, it becomes hard to read syntopically through web articles or e-books.",
-      "url": "/2022/02/20/how-to-learn-through-digital-media/",
-      "date_published": "2022-02-20 00:00:00 +0000 UTC",
-      "tags": [""]
-    }
-  
-  , 
-    {
-      "id": "/2022/02/20/how-ntp-servers-work/",
-      "title": "How NTP servers work",
-      "content_text": "She still doesn\u0026rsquo;t know. Questions  How are corrections made to a local block? How is it possible that NTP doesn\u0026rsquo;t skew the clock further when it makes the adjustment?  Notes References  A really detailed write up of NTP servers that I should condense  ",
-      "url": "/2022/02/20/how-ntp-servers-work/",
-      "date_published": "2022-02-20 00:00:00 +0000 UTC",
-      "tags": [""]
-    }
-  
-  , 
-    {
-      "id": "/2022/02/01/difference-between-shell-types/",
-      "title": "The difference between login, non-login, interactive and non-interactive shells",
-      "content_text": "She still doesn\u0026rsquo;t know. Questions  How is this distinguished by the OS? Is there a way for me to tell if I\u0026rsquo;m in a login/non-login interactive shell from my session? How do you tell the difference between an interactive/non-interactive shell? You can by checking for the existence of a prompt env var $PS1 Can you distinguish between an interactive/non-interactive shell in the same way across all Linux distros? When do the profile/rc files run with respective to each combination of login/non-login interactive/non-interactive shells?",
-      "url": "/2022/02/01/difference-between-shell-types/",
-      "date_published": "2022-02-01 00:00:00 +0000 UTC",
-      "tags": [""]
-    }
-  
-  , 
-    {
-      "id": "/2022/02/01/difference-between-cname-and-alias/",
-      "title": "The difference between a CNAME and ALIAS record",
-      "content_text": "She still doesn\u0026rsquo;t know. ",
-      "url": "/2022/02/01/difference-between-cname-and-alias/",
-      "date_published": "2022-02-01 00:00:00 +0000 UTC",
-      "tags": [""]
-    }
-  
-  , 
-    {
-      "id": "/2022/01/26/how-network-interfaces-work/",
-      "title": "How network interfaces work",
-      "content_text": "She still doesn\u0026rsquo;t know. Questions  What exactly are they? Are they a hardware device or can it be virtualised? If it\u0026rsquo;s virtualised, how can I create my own? How do network sockets relate to a network interface? Is the stuff that I wrote in the 20211228 time note correct?  Notes  On the 20211228 time note, I wrote some initial notes about them  References  Really good ELI5 explanation of a network socket Quora explanation  ",
-      "url": "/2022/01/26/how-network-interfaces-work/",
-      "date_published": "2022-01-26 00:00:00 +0000 UTC",
-      "tags": [""]
-    }
-  
   ]
 }
