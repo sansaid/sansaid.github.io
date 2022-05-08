@@ -2,6 +2,7 @@
 title: How to learn through digital media
 date: 2022-02-20
 tags: []
+draft: true
 ---
 
 It used to be a lot easier to learn when all we had were expostional texts. The type of media we could learn from were limited, and as a result, we didn't need to learn many ways of learning.

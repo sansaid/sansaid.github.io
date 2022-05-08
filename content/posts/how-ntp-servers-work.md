@@ -2,6 +2,7 @@
 title: How NTP servers work
 date: 2022-02-20
 tags: []
+draft: true
 ---
 
 # She still doesn't know.

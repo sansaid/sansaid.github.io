@@ -2,6 +2,7 @@
 title: How network interfaces work
 date: 2022-01-26
 tags: []
+draft: true
 ---
 
 # She still doesn't know.

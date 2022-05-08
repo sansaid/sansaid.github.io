@@ -2,6 +2,7 @@
 title: The difference between login, non-login, interactive and non-interactive shells
 date: 2022-02-01
 tags: []
+draft: true
 ---
 
 # She still doesn't know.
