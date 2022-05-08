@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>But does she know so?</title>
-    <link>/</link>
-    <description>Recent content on But does she know so?</description>
+    <title>algorithms on But does she know so?</title>
+    <link>/tags/algorithms/</link>
+    <description>Recent content in algorithms on But does she know so?</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>sanyia.saidova@gmail.com (Sanyia Saidova)</managingEditor>
     <webMaster>sanyia.saidova@gmail.com (Sanyia Saidova)</webMaster>
     <copyright>Credit where credit is due - theme made by [sharadcodes](https://github.com/sharadcodes/hugo-theme-serial-programmer)</copyright>
-    <lastBuildDate>Sun, 08 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How Lucene performs searches over word conjunctions</title>
       <link>/2022/05/08/lucene-conjunction-algorithm/</link>

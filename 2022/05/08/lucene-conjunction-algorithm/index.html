@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Lucene performs searches over word conjunctions | But does she know so?</title>
+  <link rel="stylesheet" href="/assets/css/post.css" />
+  <script defer src="/assets/js/lbox.js"></script>
+  
+  <link rel="stylesheet" href="/assets/css/common.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+  <a class="site-title" href="/">But does she know so?</a>
+</header>
+
+      <section class="article">
+        <div class="article-header">
+          <h2 class="article-title">How Lucene performs searches over word conjunctions</h2>
+          <small class="date">Sun May 8, 2022</small>
+          <div class="tags">
+            
+            <a href="/tags/algorithms" class="tag">algorithms</a>
+            
+            <a href="/tags/lucene" class="tag">lucene</a>
+            
+          </div>
+        </div>
+        <div class="content"><h1 id="how-lucene-performs-searches-over-word-conjunctions">How Lucene performs searches over word conjunctions</h1>
+<p><a href="https://lucene.apache.org/" title="Apache Lucene">Apache Lucene</a> is an open source search software used by [TODO]. It offers the facility to be able to search for terms across various documents. But when you query for multiple words across several documents (otherwise known as a conjunction), how is Lucene able to quickly<!-- raw HTML omitted --> find which documents <em>ALL</em> of these words are contained in?</p>
+<p>This is where the leapfrog algorithm comes in<!-- raw HTML omitted -->. The leapfrog algorithm is used to find word conjunctions across several documents. Before we dive into how this algorithm works, we should explain a few things first:</p>
+<ul>
+<li>
+<p><strong>Lucene&rsquo;s inverted index</strong> - Lucene makes use of an inverted index, which is a map of all the words and a list of the document IDs they reside in (we&rsquo;ll call this list a <strong>posting list</strong>). We will refer to a posting list for a given word, <code>x</code>, as <code>p_x</code> from now on.</p>
+</li>
+<li>
+<p><strong>The <code>next</code> function</strong> - the <code>next</code> function acts on a list of document IDs, <code>next(p_x)</code>, and returns the value of the next index in that list. If the current index is undefined, then <code>next(p_x)</code> will return the first element in that list.</p>
+</li>
+<li>
+<p><strong>The <code>advance</code> function</strong> - the <code>advance</code> function is a general function that acts on any list and, given a value that matches the type within the list, will either return the first value that is greater than or equal to the provided value. In the context of a list of document IDs, given a list <code>p_foo = [1, 12, 17, 25]</code>, if <code>advance(p_foo, 12)</code> is executed, then <code>12</code> will be returned since <code>12</code> exists in the list - this will be referred to as a <strong>match</strong>; but if <code>advance(p_foo, 13)</code> is executed, then <code>17</code> will be returned, since the first value found greater than <code>13</code>.</p>
+</li>
+</ul>
+<blockquote>
+<p>⚠️ <strong>NOTE</strong>: These functions are not necessarily representative of how they exist in code, but should give a rough idea of how they are implemented and are modified to make the explanation of this algorithm simpler.</p>
+</blockquote>
+<p>Given this information, we can now explain how the leapfrog algorithm works<!-- raw HTML omitted -->:</p>
+<ol>
+<li>For each word in the conjunction, retrieve its posting list</li>
+<li>Sort all posting lists in ascending order of length</li>
+<li>Store the next element of the first posting list: <code>curr_doc_id = next(p_1)</code></li>
+<li>For each posting list after <code>p_1</code>, run <code>advance(p_x, doc_id)</code></li>
+<li>Advance to the next posting list if a match is found - append the doc ID to a <code>hits</code> list if <code>advance(p_x, doc_id)</code> returns a match for all posting lists. Repeat from step 3.</li>
+<li>If a match is not found, set <code>curr_doc_id</code> to <code>advance(p_1, last_doc_id)</code>, where <code>last_doc_id</code> is the doc ID returned by the last execution of <code>advance</code>.</li>
+<li>Return the list of <code>hits</code> once all elements in <code>p_1</code> have been exhausted.</li>
+</ol>
+<p>To learn more about Lucene&rsquo;s data structures and algorithms, you can watch the <a href="https://2017.berlinbuzzwords.de/15/session/algorithms-and-data-structures-power-lucene-and-elasticsearch.html" title="Algorithms and data-structures that power Lucene and Elasticsearch">full talk given by Adrien Grand</a>.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<blockquote>
+</blockquote>
+</div>
+      </section>
+      <footer>
+  <p>&copy; 2022 - credit where credit is due, this theme was made by <a href="https://github.com/sharadcodes/hugo-theme-serial-programmer">sharadcodes</a>. Check them out!</p>
+</footer>
+    </main>
+  </body>
+</html>
