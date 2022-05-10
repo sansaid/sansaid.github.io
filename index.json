@@ -11,7 +11,7 @@
     {
       "id": "/2022/05/09/the-difference-between-ots-and-crdts/",
       "title": "The difference between operational transformations (OTs) and CRDTs",
-      "content_text": "How do you ensure systems remain consistent even when a partial network failure happens between them? Seems impossible, right? Commonly, systems would delegate a leader and changes would be sent to the leader first. The leader would propogate changes to their replicas, where you will need to rely on network latency in order to ensure the information is propogated to all replicas. In the event of a network partition, your system may end up with a split brain with inconsistent data across the partition.",
+      "content_text": "How do you ensure systems remain consistent even when a partial network failure happens between them? Seems impossible, right?\nA common approach would delegate a leader in a system, whereby all nodes would send changess to the leader first. The leader is then responsible for propogating the changes to all replicas. This approach is simple but can be slow, since the messages have to traverse a network. In the event of a network partition, your system may end up with a split brain with inconsistent data across the partition.",
       "url": "/2022/05/09/the-difference-between-ots-and-crdts/",
       "date_published": "2022-05-09 00:00:00 +0000 UTC",
       "tags": ["algorithms,crdt,operational,transformations"]
