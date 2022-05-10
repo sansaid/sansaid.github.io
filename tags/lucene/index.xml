@@ -16,8 +16,8 @@
       <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
       <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
       <guid>/2022/05/08/lucene-conjunction-algorithm/</guid>
-      <description>Apache Lucene is an open source search software used by [TODO]. It offers the facility to be able to search for terms across various documents. But when you query for multiple words across several documents (otherwise known as a conjunction), how is Lucene able to quicklyfind which documents ALL of these words are contained in?
-This is where the leapfrog algorithm comes in. The leapfrog algorithm is used to find word conjunctions across several documents.</description>
+      <description>Apache Lucene is an open source search software used by many tech giants, including Twitter and LinkedIn to power their sites&#39; search features. It offers the facility to be able to search for terms across various documents. But when you query for multiple words across several documents (otherwise known as a conjunction), how is Lucene able to quicklyfind which documents ALL of these words are contained in?
+This is where the leapfrog algorithm comes in.</description>
     </item>
     
   </channel>
