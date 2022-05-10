@@ -4,7 +4,9 @@ date: 2022-05-09
 tags: [algorithms, crdt, operational, transformations]
 ---
 
-How do you ensure systems remain consistent even when a partial network failure happens between them? Seems impossible, right? Commonly, systems would delegate a leader and changes would be sent to the leader first. The leader would propogate changes to their replicas, where you will need to rely on network latency in order to ensure the information is propogated to all replicas. In the event of a network partition, your system may end up with a split brain with inconsistent data across the partition. CRDTs aim to ensure updates are consistently propogated to all nodes without the delegation of a leader, which avoids a split brain problem.
+How do you ensure systems remain consistent even when a partial network failure happens between them? Seems impossible, right?
+
+A common approach would delegate a leader in a system, whereby all nodes would send changess to the leader first. The leader is then responsible for propogating the changes to all replicas. This approach is simple but can be slow, since the messages have to traverse a network. In the event of a network partition, your system may end up with a split brain with inconsistent data across the partition. CRDTs aim to ensure updates are consistently propogated to all nodes without the delegation of a leader, which avoids a split brain problem.
 
 CRDTs avoid causing split brains by using a star or ring topology<!--QC1-->. Every node in a CRDT system communicates with every other node - so if there is a network partition between S1 and S2, but not between S1 and S3, eventually the right value will be propagated to all nodes. When a node receives information from another node, it needs to apply a merge operation which is commutative<!--QC2--> (i.e. the order in which the merge is applied does not change as long as the terms don't change) and must be the same operation that is used by all other nodes to resolve conflicts.
 
