@@ -28,17 +28,17 @@
             
           </div>
         </div>
-        <div class="content"><p><a href="https://lucene.apache.org/" title="Apache Lucene">Apache Lucene</a> is an open source search software used by many tech giants, including Twitter and LinkedIn to power their sites' search features. It offers the ability to search for multiple words across multiple documents, otherwise known as a conjunction. How is Lucene able to quickly<!-- raw HTML omitted --> perform these conjunctions?</p>
+        <div class="content"><p><a href="https://lucene.apache.org/" title="Apache Lucene">Apache Lucene</a> is an open source search software used by many tech giants, including Twitter and LinkedIn to power their sites' search features. It offers the ability to search for multiple words across multiple documents, otherwise known as a conjunction. How is Lucene able to quickly<!-- raw HTML omitted --> perform these conjunctions?<!-- raw HTML omitted --></p>
 <p>This is where the leapfrog algorithm comes in<!-- raw HTML omitted -->. The leapfrog algorithm is used to find word conjunctions across several documents. Before we dive into how this algorithm works, we should explain a few things first:</p>
 <ul>
 <li>
 <p><strong>Lucene&rsquo;s inverted index</strong> - Lucene makes use of an inverted index, which is a map of all the words and a list of the document IDs they reside in (we&rsquo;ll call this list a <strong>posting list</strong>). We will refer to a posting list for a given word, <code>x</code>, as <code>p_x</code> from now on.</p>
 </li>
 <li>
-<p><strong>The <code>next</code> function</strong> - the <code>next</code> function acts on a list of document IDs, <code>next(p_x)</code>, and returns the value of the next index in that list. If the current index is undefined, then <code>next(p_x)</code> will return the first element in that list.</p>
+<p><strong>The <code>next</code> function</strong> - the <code>next</code> function acts on a list of document IDs, <code>next(p_x)</code>, and returns the value of the next index in that list. If the current index is undefined, then <code>next(p_x)</code> will return the first element in that list.<!-- raw HTML omitted --></p>
 </li>
 <li>
-<p><strong>The <code>advance</code> function</strong> - the <code>advance</code> function is a general function that acts on any list and, given a value that matches the type within the list, will either return the first value that is greater than or equal to the provided value. In the context of a list of document IDs, given a list <code>p_foo = [1, 12, 17, 25]</code>, if <code>advance(p_foo, 12)</code> is executed, then <code>12</code> will be returned since <code>12</code> exists in the list - this will be referred to as a <strong>match</strong>; but if <code>advance(p_foo, 13)</code> is executed, then <code>17</code> will be returned, since the first value found greater than <code>13</code>.</p>
+<p><strong>The <code>advance</code> function</strong> - the <code>advance</code> function is a general function that acts on any list and, given a value that matches the type within the list, will either return the first value that is greater than or equal to the provided value. In the context of a list of document IDs, given a list <code>p_foo = [1, 12, 17, 25]</code>, if <code>advance(p_foo, 12)</code> is executed, then <code>12</code> will be returned since <code>12</code> exists in the list - this will be referred to as a <strong>match</strong>; but if <code>advance(p_foo, 13)</code> is executed, then <code>17</code> will be returned, since the first value found greater than <code>13</code>.<!-- raw HTML omitted --></p>
 </li>
 </ul>
 <blockquote>
