@@ -9,13 +9,40 @@
     <managingEditor>sanyia.saidova@gmail.com (Sanyia Saidova)</managingEditor>
     <webMaster>sanyia.saidova@gmail.com (Sanyia Saidova)</webMaster>
     <copyright>Credit where credit is due - theme made by [sharadcodes](https://github.com/sharadcodes/hugo-theme-serial-programmer)</copyright>
-    <lastBuildDate>Sun, 08 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>algorithms</title>
       <link>/tags/algorithms/</link>
-      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
       <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
       <guid>/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>crdt</title>
+      <link>/tags/crdt/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/tags/crdt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>operational</title>
+      <link>/tags/operational/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/tags/operational/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transformations</title>
+      <link>/tags/transformations/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/tags/transformations/</guid>
       <description></description>
     </item>
     

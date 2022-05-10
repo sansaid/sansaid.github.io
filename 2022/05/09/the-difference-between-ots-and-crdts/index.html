@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The difference between operational transformations (OTs) and CRDTs | But does she know so?</title>
+  <link rel="stylesheet" href="/assets/css/post.css" />
+  <script defer src="/assets/js/lbox.js"></script>
+  
+  <link rel="stylesheet" href="/assets/css/common.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+  <a class="site-title" href="/">But does she know so?</a>
+</header>
+
+      <section class="article">
+        <div class="article-header">
+          <h2 class="article-title">The difference between operational transformations (OTs) and CRDTs</h2>
+          <small class="date">Mon May 9, 2022</small>
+          <div class="tags">
+            
+            <a href="/tags/algorithms" class="tag">algorithms</a>
+            
+            <a href="/tags/crdt" class="tag">crdt</a>
+            
+            <a href="/tags/operational" class="tag">operational</a>
+            
+            <a href="/tags/transformations" class="tag">transformations</a>
+            
+          </div>
+        </div>
+        <div class="content"><p><strong>What problem do CRDTs solve?</strong></p>
+<p>How do you ensure systems remain consistent even when a partial network failure happens between them? Seems impossible, right? Commonly, systems would delegate a leader and changes would be sent to the leader first. The leader would propogate changes to their replicas, where you will need to rely on network latency in order to ensure the information is propogated to all replicas. In the event of a network partition, your system may end up with a split brain with inconsistent data across the partition. CRDTs aim to ensure updates are consistently propogated to all nodes without the delegation of a leader, which avoids a split brain problem.</p>
+<p><strong>How do CRDTs avoid the split brain problem?</strong></p>
+<p>CRDTs avoid causing split brains by using a star or ring topology<!-- raw HTML omitted -->. Every node in a CRDT system communicates with every other node - so if there is a network partition between S1 and S2, but not between S1 and S3, eventually the right value will be propagated to all nodes. When a node receives information from another node, it needs to apply a merge operation which is commutative<!-- raw HTML omitted --> (i.e. the order in which the merge is applied does not change as long as the terms don&rsquo;t change) and must be the same operation that is used by all other nodes to resolve conflicts.</p>
+<p><strong>What are the issues with CRDTs?</strong>
+Although this sounds like a dream, CRDTs do present their own problems. For one, it is not ideal for real-time document collaboration, like Google Docs for example. The reason for this is because we would have to design a way to map the characters such that they are ID&rsquo;d by their position in the doc. It so happens that this is a common method which lends itself to a commutative merge operation which can be used by either client. However, this approach is prone to interleaving<!-- raw HTML omitted -->, which is where two clients who have started typing from the same position, will result in both of their inputs interleaved with each other:</p>
+<pre><code>Client 1: Hello World
+Client 2: Hello Earth
+
+Output: Hello EWoarltdh
+</code></pre><p><strong>What&rsquo;s the main difference between CRDTs and OTs?</strong>
+There are alternatives to CRDTs which do lend themselves better to real-time document collaboration: for example, operational transformations (OTs).</p>
+<p>OTs work by taking the changes from each client, applying a merge operation in a central location and then committing the transformations back to the clients. This takes the burden of conflict resolution away from the clients and manages them centrally<!-- raw HTML omitted -->. The only problem is that centrally managing these operations brings us back to a single point of failure and a higher probability of data loss<!-- raw HTML omitted -->.</p>
+<p>As with everything in tech, there&rsquo;s always a trade off in the approach you take. It&rsquo;s important to know the pros and cons of each solution and decide on what &ldquo;cons&rdquo; you&rsquo;d rather adopt for your use case.</p>
+<p>To read more about CRDTs and OTs, here are a few useful references:</p>
+<ul>
+<li><a href="https://martin.kleppmann.com/2020/07/06/crdt-hard-parts-hydra.html" title="Martin Kleppmann talk on CRDTs">(Video) CRDTs: The Hard Parts</a></li>
+<li><a href="https://ably.com/blog/crdts-distributed-data-consistency-challenges#what-are-operational-transforms" title="Ably blog on CRDTs">(Blog) How do CRDTs solve distributed data consistency challenges?</a></li>
+<li><a href="https://www.cs.utexas.edu/~rossbach/cs380p-fall2019/papers/Counters.html" title="Implementing counters with CRDTs">(Paper) Implementing counters with CRDTs</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<blockquote>
+</blockquote>
+</div>
+      </section>
+      <footer>
+  <p>&copy; 2022 - credit where credit is due, this theme was made by <a href="https://github.com/sharadcodes/hugo-theme-serial-programmer">sharadcodes</a>. Check them out!</p>
+</footer>
+    </main>
+  </body>
+</html>

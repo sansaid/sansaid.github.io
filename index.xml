@@ -9,15 +9,25 @@
     <managingEditor>sanyia.saidova@gmail.com (Sanyia Saidova)</managingEditor>
     <webMaster>sanyia.saidova@gmail.com (Sanyia Saidova)</webMaster>
     <copyright>Credit where credit is due - theme made by [sharadcodes](https://github.com/sharadcodes/hugo-theme-serial-programmer)</copyright>
-    <lastBuildDate>Sun, 08 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The difference between operational transformations (OTs) and CRDTs</title>
+      <link>/2022/05/09/the-difference-between-ots-and-crdts/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/2022/05/09/the-difference-between-ots-and-crdts/</guid>
+      <description>What problem do CRDTs solve?
+How do you ensure systems remain consistent even when a partial network failure happens between them? Seems impossible, right? Commonly, systems would delegate a leader and changes would be sent to the leader first. The leader would propogate changes to their replicas, where you will need to rely on network latency in order to ensure the information is propogated to all replicas. In the event of a network partition, your system may end up with a split brain with inconsistent data across the partition.</description>
+    </item>
+    
     <item>
       <title>How Lucene performs searches over word conjunctions</title>
       <link>/2022/05/08/lucene-conjunction-algorithm/</link>
       <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
       <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
       <guid>/2022/05/08/lucene-conjunction-algorithm/</guid>
-      <description>Apache Lucene is an open source search software used by many tech giants, including Twitter and LinkedIn to power their sites&#39; search features. It offers the facility to be able to search for terms across various documents. But when you query for multiple words across several documents (otherwise known as a conjunction), how is Lucene able to quicklyfind which documents ALL of these words are contained in?
-This is where the leapfrog algorithm comes in.</description>
+      <description>Apache Lucene is an open source search software used by many tech giants, including Twitter and LinkedIn to power their sites&#39; search features. It offers the ability to search for multiple words across multiple documents, otherwise known as a conjunction. How is Lucene able to quicklyperform these conjunctions?
+This is where the leapfrog algorithm comes in. The leapfrog algorithm is used to find word conjunctions across several documents. Before we dive into how this algorithm works, we should explain a few things first:</description>
     </item>
     
   </channel>

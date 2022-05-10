@@ -9,9 +9,19 @@
   
   
     {
+      "id": "/2022/05/09/the-difference-between-ots-and-crdts/",
+      "title": "The difference between operational transformations (OTs) and CRDTs",
+      "content_text": "What problem do CRDTs solve?\nHow do you ensure systems remain consistent even when a partial network failure happens between them? Seems impossible, right? Commonly, systems would delegate a leader and changes would be sent to the leader first. The leader would propogate changes to their replicas, where you will need to rely on network latency in order to ensure the information is propogated to all replicas. In the event of a network partition, your system may end up with a split brain with inconsistent data across the partition.",
+      "url": "/2022/05/09/the-difference-between-ots-and-crdts/",
+      "date_published": "2022-05-09 00:00:00 +0000 UTC",
+      "tags": ["algorithms,crdt,operational,transformations"]
+    }
+  
+  , 
+    {
       "id": "/2022/05/08/lucene-conjunction-algorithm/",
       "title": "How Lucene performs searches over word conjunctions",
-      "content_text": "Apache Lucene is an open source search software used by many tech giants, including Twitter and LinkedIn to power their sites' search features. It offers the facility to be able to search for terms across various documents. But when you query for multiple words across several documents (otherwise known as a conjunction), how is Lucene able to quicklyfind which documents ALL of these words are contained in?\nThis is where the leapfrog algorithm comes in.",
+      "content_text": "Apache Lucene is an open source search software used by many tech giants, including Twitter and LinkedIn to power their sites' search features. It offers the ability to search for multiple words across multiple documents, otherwise known as a conjunction. How is Lucene able to quicklyperform these conjunctions?\nThis is where the leapfrog algorithm comes in. The leapfrog algorithm is used to find word conjunctions across several documents. Before we dive into how this algorithm works, we should explain a few things first:",
       "url": "/2022/05/08/lucene-conjunction-algorithm/",
       "date_published": "2022-05-08 00:00:00 +0000 UTC",
       "tags": ["algorithms,lucene"]
