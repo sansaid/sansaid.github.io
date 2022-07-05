@@ -41,11 +41,19 @@ tags: []
 
 # She still doesn't know.
 
-## Questions
+<!-- Guidance 
+* Write your sentences on each new line: https://sive.rs/1s 
+* Give credit to related blogs using: [Readbale name][1]
+-->
 
-## Notes
+<!-- References -->
+[1]: <link> (Name of link)
 
-## References
+<!-- Questions and comments - refer to IDs with QC prefix
+
+1. What question?
+2. Some comment
+-->
 
 EOF
 	vi "${post_file_path}"
