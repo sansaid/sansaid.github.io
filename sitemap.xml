@@ -2,10 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/algorithms/</loc>
-    <lastmod>2022-05-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/</loc>
+    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/development/</loc>
+    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/drafts/</loc>
+    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/fast/</loc>
+    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/drafts/fast-refreshing-files-windows-on-wsl/</loc>
+    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/react/</loc>
+    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/refresh/</loc>
+    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/web/</loc>
+    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/windows/</loc>
+    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/wsl/</loc>
+    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/diversity/</loc>
+    <lastmod>2022-05-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/opinion/</loc>
+    <lastmod>2022-05-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/drafts/the-diversity-paradox/</loc>
+    <lastmod>2022-05-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/algorithms/</loc>
     <lastmod>2022-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/crdt/</loc>
@@ -15,9 +54,6 @@
     <lastmod>2022-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2022-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/2022/05/09/the-difference-between-ots-and-crdts/</loc>

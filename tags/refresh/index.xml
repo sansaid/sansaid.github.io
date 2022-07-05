@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>refresh on But does she know so?</title>
+    <link>/tags/refresh/</link>
+    <description>Recent content in refresh on But does she know so?</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>sanyia.saidova@gmail.com (Sanyia Saidova)</managingEditor>
+    <webMaster>sanyia.saidova@gmail.com (Sanyia Saidova)</webMaster>
+    <copyright>Credit where credit is due - theme made by [sharadcodes](https://github.com/sharadcodes/hugo-theme-serial-programmer)</copyright>
+    <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/refresh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fast refreshing files on Windows when running React on WSL</title>
+      <link>/drafts/fast-refreshing-files-windows-on-wsl/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/drafts/fast-refreshing-files-windows-on-wsl/</guid>
+      <description>I ran into some trouble where I fast refresh stopped working when I ran a devcontainer on Windows. If I mounted my devcontainer on a Windows file path, fast refresh stopped working; however, if I mounted the devcontainer on a path in WSL 2, React fast refresh did work.
+First of all, running a devcontainer on the Windows filesystem with WSL 2 negatively impacts performance. Running the React development server in the devcontainer when mounted to a WSL 2 path was so much faster than on Windows (a few seconds vs 2 mins) - so there is at least that benefit.</description>
+    </item>
+    
+  </channel>
+</rss>

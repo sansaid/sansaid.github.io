@@ -9,7 +9,88 @@
     <managingEditor>sanyia.saidova@gmail.com (Sanyia Saidova)</managingEditor>
     <webMaster>sanyia.saidova@gmail.com (Sanyia Saidova)</webMaster>
     <copyright>Credit where credit is due - theme made by [sharadcodes](https://github.com/sharadcodes/hugo-theme-serial-programmer)</copyright>
-    <lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>development</title>
+      <link>/tags/development/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fast</title>
+      <link>/tags/fast/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/tags/fast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react</title>
+      <link>/tags/react/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>refresh</title>
+      <link>/tags/refresh/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/tags/refresh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>/tags/web/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wsl</title>
+      <link>/tags/wsl/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/tags/wsl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diversity</title>
+      <link>/tags/diversity/</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/tags/diversity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opinion</title>
+      <link>/tags/opinion/</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/tags/opinion/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>algorithms</title>
       <link>/tags/algorithms/</link>
