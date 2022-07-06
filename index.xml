@@ -9,7 +9,18 @@
     <managingEditor>sanyia.saidova@gmail.com (Sanyia Saidova)</managingEditor>
     <webMaster>sanyia.saidova@gmail.com (Sanyia Saidova)</webMaster>
     <copyright>Credit where credit is due - theme made by [sharadcodes](https://github.com/sharadcodes/hugo-theme-serial-programmer)</copyright>
-    <lastBuildDate>Tue, 05 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bootstrapping with OpenAPI</title>
+      <link>/drafts/bootstrapping-with-openapi/</link>
+      <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/drafts/bootstrapping-with-openapi/</guid>
+      <description>Something about how difficult it is to bootstrap, including with oapi-codegen, despite the fact that it&amp;rsquo;s supposed to make it easier.
+Use this to start a series about rating tooling with:
+ How easy it is to learn Whether it&amp;rsquo;s good for personal projects, small teams or enterprises Cost of running  </description>
+    </item>
+    
     <item>
       <title>Brag because it helps others</title>
       <link>/2022/07/05/brag-because-it-helps-others/</link>

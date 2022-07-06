@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/2022/07/05/brag-because-it-helps-others/</loc>
-    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
+    <loc>/drafts/bootstrapping-with-openapi/</loc>
+    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/drafts/</loc>
+    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/openapi/</loc>
+    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/webdev/</loc>
+    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/2022/07/05/brag-because-it-helps-others/</loc>
     <lastmod>2022-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/career/</loc>
@@ -17,13 +32,7 @@
     <loc>/posts/</loc>
     <lastmod>2022-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2022-07-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/development/</loc>
-    <lastmod>2022-05-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/drafts/</loc>
     <lastmod>2022-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/fast/</loc>
