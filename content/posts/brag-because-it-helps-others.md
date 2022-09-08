@@ -63,5 +63,5 @@ _This post was inspired by a colleague who gave me frank feedback about not brag
 
 <!-- References -->
 
-[1]: <https://staffeng.com/guides/promo-packets> (Promotion Packets, by StaffEng)
-[2]: <https://jvns.ca/blog/brag-documents/> (Write a brag document, by Julia Evans)
+[1]: <https://jvns.ca/blog/brag-documents/> (Write a brag document, by Julia Evans)
+[2]: <https://staffeng.com/guides/promo-packets> (Promotion Packets, by StaffEng)
