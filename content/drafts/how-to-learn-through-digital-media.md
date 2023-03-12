@@ -32,6 +32,13 @@ All of these stages can be fulfilled with pen and paper.
   * Articles - lends itself to syntopic reading
   * Videos
   * E-books
+* One useful way I've found by learning is to create a markdown note structure with the following characteristics:
+  * Header should reflect the aim of your learning
+  * You have a references sub header that is a list of links or books you're going to or have read (make it clear which one you have and haven't read yet) - in order to mark a reference as read, you don't need to read the entire thing; just read it enough to get an answer to one of the questions
+  * Each bullet point is a question you have relating to the header
+  * Beneath each bullet point is an answer, but each answer must link to a reference
+  * In your browser, you can open all the articles you plan on reading and close it after you have read it/got an answer you were looking for from it - whenever you open a new tab, ask yourself why you opened it. Once you have that question, add it to your list of questions. If you found the answer from the new tab, add it to your references and close it. If not, close it and don't add it to your references.
+  * A good example of where I applied this is in the `notes` repo under `notes/tmp-interview-prep.md`
 
 ## References
 * [1]: https://en.wikipedia.org/wiki/How_to_Read_a_Book ("How to Reada Book", Adler) 
