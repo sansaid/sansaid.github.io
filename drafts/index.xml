@@ -9,7 +9,16 @@
     <managingEditor>sanyia.saidova@gmail.com (Sanyia Saidova)</managingEditor>
     <webMaster>sanyia.saidova@gmail.com (Sanyia Saidova)</webMaster>
     <copyright>Credit where credit is due - theme made by [sharadcodes](https://github.com/sharadcodes/hugo-theme-serial-programmer)</copyright>
-    <lastBuildDate>Thu, 08 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="/drafts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/drafts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Cassandra performs faster writes at high throughput</title>
+      <link>/drafts/why-cassandra-performs-faster-writes-at-high-throughput/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/drafts/why-cassandra-performs-faster-writes-at-high-throughput/</guid>
+      <description>This paper from 2017 suggests that Cassandra is faster at writes at high throughput, and even outperforms Redis at the 0.1m to 1m writes scale. Why is that? How come Redis gets faster after 1m writes?</description>
+    </item>
+    
     <item>
       <title>How I develop efficiently</title>
       <link>/drafts/how-i-develop-efficiently/</link>
@@ -46,7 +55,8 @@ First of all, running a devcontainer on the Windows filesystem with WSL 2 negati
       <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
       <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
       <guid>/drafts/the-diversity-paradox/</guid>
-      <description>The
+      <description>Write something about how people who are minorities get asked to do glue work because they&amp;rsquo;re the only ones with insight into hiring minorities; but this means that they do not focus enough on engineering.
+Similarly, in economic crises, diversity driven events are the first to be sacrificed and minorities (or women) are the first to suffer (explain why).
   </description>
     </item>
     
