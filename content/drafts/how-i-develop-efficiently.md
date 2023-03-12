@@ -11,9 +11,10 @@ tags: []
 
 * Using cookiecutter templates
 * Using custom builders in Github workflows
+* Think about all the -ility's of your architecutre (see [source][web-systems])
 
 <!-- References -->
-[1]: <link> (Name of link)
+[web-systems]: <http://aosabook.org/en/distsys.html> (Principles of Web Distributed Systems Design)
 
 <!-- Questions and comments - refer to IDs with QC prefix
 
