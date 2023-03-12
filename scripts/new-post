@@ -20,7 +20,7 @@ function create_post() {
 	local date="${2}"
 
 	local script_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-	local rel_posts_dir="../content/posts"
+	local rel_posts_dir="../content/drafts"
 	local abs_posts_dir=$(cd "${script_dir}/${rel_posts_dir}" && pwd)
 
 	local post_file_name=$(transform_file_name "${post_title}")
