@@ -9,7 +9,16 @@
     <managingEditor>sanyia.saidova@gmail.com (Sanyia Saidova)</managingEditor>
     <webMaster>sanyia.saidova@gmail.com (Sanyia Saidova)</webMaster>
     <copyright>Credit where credit is due - theme made by [sharadcodes](https://github.com/sharadcodes/hugo-theme-serial-programmer)</copyright>
-    <lastBuildDate>Sun, 12 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI will not save your business</title>
+      <link>/drafts/ai-will-not-save-your-business/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <author>sanyia.saidova@gmail.com (Sanyia Saidova)</author>
+      <guid>/drafts/ai-will-not-save-your-business/</guid>
+      <description>Businesses laying off seems to be tied to AI (see Discord post on 11/01/2024 on #tech-support) This is a flawed assumption Many businesses laying off to help with profitability So do you really believe that cutting down on AI will reduce your expenditure that much?  Some businesses have a large chunk of its revenue in ads Many businesses don&amp;rsquo;t want to admit this is a problem Relying on ads is a quick way to make money in lieu of a differentiating revenue stream Your business is then in the business of advertising - you&amp;rsquo;re not a tech company, you&amp;rsquo;re a marketing company So why is this so common?</description>
+    </item>
+    
     <item>
       <title>Why Cassandra performs faster writes at high throughput</title>
       <link>/drafts/why-cassandra-performs-faster-writes-at-high-throughput/</link>
