@@ -1,4 +1,4 @@
-# Shit I don't know
+# Stuff I don't know
 
 Hugo source code for the blog I maintain on the shit I don't know.
 

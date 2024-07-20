@@ -5,11 +5,11 @@ description: |
     I don't enjoy writing blogs, so I started a blog. Currently...
     <br/>
     <br/>
-    <strong>Reading:</strong> <a href="https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/">Designing Data-Intensive Applications, by Kleppmann</a>
+    <strong>Reading:</strong> <a href="https://www.oreilly.com/library/view/learning-ebpf/9781098135119/">Learning eBPF, by Liz Rice</a>
     <br/>
-    <strong>Learning about:</strong> building production-grade authentication into web services
+    <strong>Learning about:</strong> eBPF
     <br/>
-    <strong>Working on:</strong> <a href="https://github.com/fuz95esi/binboi">building a bin collection notifier</a>
+    <strong>Working on:</strong> <a href="https://github.com/fuz95esi/binboi">building a bin collection calendar for residents of Reading council</a>
     <br/>
   </p>
   <br/>
@@ -22,7 +22,5 @@ contact:
     url: https://www.linkedin.com/in/ssaidova/
   - title: github
     url: https://github.com/sansaid
-  - title: twitter
-    url: https://twitter.com/smsaiid
   - title: email
     url: mailto:sanyia.saidova@gmail.com
